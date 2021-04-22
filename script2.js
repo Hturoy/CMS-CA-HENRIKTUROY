@@ -17,7 +17,7 @@ let newContent = ``
         <img src="${image.thumbnail}"></img>
         <p>Price: ${products.prices.price}${products.prices.currency_prefix}</p>
         <p>Rating: ${products.average_rating}</p>
-    </ul></a>;`
+    </ul></a>`
     }
 		content.innerHTML += newContent;
 	
